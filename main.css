@@ -1,0 +1,187 @@
+body{
+  margin: 0;
+  margin-top: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+h1{
+  text-align: center;
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #3BBDB8;
+}
+
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 25px;
+}
+
+.quoi:hover{
+  text-decoration: line-through;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.jcarousel-skin-name {
+  width: 100%;
+}
+.jcarousel-clip-horizontal {
+  margin: 0 auto;
+  width: 964px; /*largeur de l'image et du <li>*/
+  padding: 0 10%;
+}
+
+
+.citations{
+  width: 80%;
+  margin: 0 auto;
+  font-style: italic;
+
+}
+
+
+.benn img{
+  width: 25%;
+  float: left;
+}
+
+.eliza img{
+  width: 25%
+}
+
+.profs{
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.lucas img{
+  width: 25%
+}
+
+.prenom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 35px;
+  width: 100%;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.princing p
+{
+  color: black
+}
+
+.content{
+  color: #3BBDB8;
+  background-color: black;
+}
+
+.tel{
+  color: #3BBDB8;
+}
+
+.mail a{
+  color: #3BBDB8;
+  text-decoration: underline;
+}
+
+.tel a{
+  color: #3BBDB8;
+  text-decoration: underline;
+}
+
+/* responsive **/
+
+@media only screen and (max-width: 992px){
+  body{
+    margin: 0;
+  }
+
+  .profs{
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .benn img{
+    width: 20%;
+    float: left;
+  }
+
+  .eliza img{
+    width: 20%
+  }
+
+  .lucas img{
+    width: 20%
+  }
+
+  .prenom{
+    font-size: 25px;
+  }
+
+
+
+  .footer{
+    display: flex;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+  .navbar{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+  .profs{
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .benn img{
+    width: 70%;
+    float: left;
+  }
+
+  .eliza img{
+    width: 70%
+  }
+
+  .lucas img{
+    width: 70%
+  }
+
+  .prenom{
+    font-size: 25px;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
